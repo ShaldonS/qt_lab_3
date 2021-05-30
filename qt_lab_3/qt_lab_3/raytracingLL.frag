@@ -78,7 +78,7 @@ struct Intersection
 struct TracingRay
 {
 	Ray ray; // луч
-	float contribution;	// вклад луча в результирующий цвет
+	float contribution;	// коэффициент луча для результирующего цвета
 	int depth; // номер переотражения
 };
 
