@@ -1,6 +1,6 @@
 #version 430 
-in vec3 vertex; //Входные переменные vPosition - позиция вершины
-out vec3 interpolated_vertex;  
+in vec3 vertex; //позиция вершины
+out vec3 interpolated_vertex;  //сканированная
 
 void main (void) 
 {    
